@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class syclon {
+    public static void main(String[] args){
+        Scanner u1 = new Scanner(System.in);
+        //Scanner v1 = new Scanner(System.in);
+        Scanner m01 = new Scanner(System.in);
+        Scanner m1 = new Scanner(System.in);
+        System.out.println("u");
+
+        double u = u1.nextDouble();
+        System.out.println("m0");
+
+
+        double m0 = m01.nextDouble();
+        System.out.println("m");
+        double m = m1.nextDouble();
+
+        double v = u*(Math.log(m0/m));
+        System.out.println(v);
+
+    }
+}
